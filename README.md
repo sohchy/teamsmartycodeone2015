@@ -16,7 +16,10 @@ From our experience, its best to run android version on a device. So instead of 
 We put the code up using hockeyapp and an enterprise license (needed for ios) so anybody can download it.
 
 ios: bit.do/fnb16ios
+
 android: bit.do/fnb16android
+
+We have tested it on phone but the assets are meant to work for tablet sized devices as well.
 
 The app doesn't work throughout, that means all the links in the app aren't live and working. The app workflow was designed for the presentation as we wanted to focus on the story we wanted to tell. I've added a workflow from the presentation here if it helps.
 
