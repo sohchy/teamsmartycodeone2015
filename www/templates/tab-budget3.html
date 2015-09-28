@@ -1,0 +1,127 @@
+<ion-view view-title="My Budget">
+  <ion-content class="padding">
+    <ti-segmented-control on-select="buttonClicked($index)">
+      <ti-segmented-control-button class="button-balanced" title="'Month'" selected>
+        
+      </ti-segmented-control-button>
+      <ti-segmented-control-button class="button-balanced" title="'Bi-Week'">
+        
+      </ti-segmented-control-button>
+      <ti-segmented-control-button class="button-balanced" title="'Week'">
+        
+      </ti-segmented-control-button>
+    </ti-segmented-control>
+
+        <div class="row padding clear"></div>
+
+
+    <table class="table-border">
+        <tr>
+          <th>Category</th>
+          <th>Budgeted</th>
+          <th>Spent</th>
+        </tr>
+        <tr>
+          <td>Groceries</td>
+          <td>$150</td>
+          <td>$105</td>
+        </tr>
+        <tr>
+          <td>Restaurants</td>
+          <td>$60</td>
+          <td>$45</td>
+        </tr>
+        <tr>
+          <td>Entertainment</td>
+          <td>$25</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+          <td>Guilty</td>
+          <td>$25</td>
+          <td>$25</td>
+        </tr>
+      </table>
+
+          <div class="row padding clear"></div>
+
+
+    <canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels"></canvas>
+
+        <div class="row padding clear"></div>
+
+
+        <!-- <table class="table-border">
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Balance</th>
+            <th>Edit</th>
+          </tr>
+          <tr>
+            <td>11/2</td>
+            <td> - </td>
+            <td> - </td>
+            <td>$350</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/2</td>
+            <td>CreditCard</td>
+            <td>$175</td>
+            <td>$175</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/4</td>
+            <td>Paycheck</td>
+            <td>+$450</td>
+            <td>$625</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/7</td>
+            <td>MUD</td>
+            <td>$75</td>
+            <td>$525</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/8</td>
+            <td>Verizon</td>
+            <td>$75</td>
+            <td>$450</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/10</td>
+            <td>Cox</td>
+            <td>$75</td>
+            <td>$375</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/11</td>
+            <td>Rent</td>
+            <td>$350</td>
+            <td>$25</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>11/18</td>
+            <td>Paycheck</td>
+            <td>+$450</td>
+            <td>$475</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+        </table> -->
+
+    <div class="row padding clear"></div>
+
+    <p><a href="#/explorebudget3" class="no-text-decoration color-fnb-green"><i class="ion-flash size-24 color-fnb-green"></i>&nbsp;&nbsp;You are doing very well! Would you like to save some more?&nbsp;&nbsp;<i class="ion-ios-arrow-forward size-16 color-fnb-green"></i></a></p>
+
+    <div class="height-50"></div>
+
+  </ion-content>
+</ion-view>

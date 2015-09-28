@@ -1,0 +1,118 @@
+<ion-view view-title="My Budget">
+  <ion-content class="padding">
+    <ti-segmented-control on-select="buttonClicked($index)">
+      <ti-segmented-control-button class="button-balanced" title="'Month'" selected>
+        
+      </ti-segmented-control-button>
+      <ti-segmented-control-button class="button-balanced" title="'Bi-Week'">
+        
+      </ti-segmented-control-button>
+      <ti-segmented-control-button class="button-balanced" title="'Week'">
+        
+      </ti-segmented-control-button>
+    </ti-segmented-control>
+
+        <div class="row padding clear"></div>
+
+
+    <table class="table-border">
+        <tr>
+          <td>Necessary Expenses</td>
+          <td>$750</td>
+        </tr>
+        <tr>
+          <td>Money Left</td>
+          <td>$125</td>
+        </tr>
+      </table>
+
+          <div class="row padding clear"></div>
+
+
+    <canvas id="doughnut" class="chart chart-doughnut" chart-data="data" chart-labels="labels" height="100"></canvas>
+  
+        <div class="row padding clear"></div>
+
+
+        <table class="table-border">
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Balance</th>
+            <th>Edit</th>
+          </tr>
+          <tr>
+            <td>10/2</td>
+            <td> - </td>
+            <td> - </td>
+            <td>$200</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>10/2</td>
+            <td>CreditCard</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>10/4</td>
+            <td>Paycheck</td>
+            <td>+$450</td>
+            <td>$475</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>10/7</td>
+            <td>MUD</td>
+            <td>$75</td>
+            <td>$400</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>10/8</td>
+            <td>Verizon</td>
+            <td>$75</td>
+            <td>$325</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>10/10</td>
+            <td>Cox</td>
+            <td>$75</td>
+            <td>$250</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr class="assertive">
+            <td>10/11</td>
+            <td>Rent</td>
+            <td>$350</td>
+            <td>-$100</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+          <tr>
+            <td>10/18</td>
+            <td>Paycheck</td>
+            <td>+$450</td>
+            <td>$350</td>
+            <td><i class="ion-edit balanced"></i></td>
+          </tr>
+        </table>
+
+            <div class="row padding clear"></div>
+
+
+    <a class="balanced" href="#">Add other expected income and expenses</a>
+
+    <div class="card">
+      <div class="item item-text-wrap"><i class="icon size-24 ion-android-warning assertive"></i>You may not have sufficient funds and may end up with a negative balance. You may also be charged overdraft fees.
+      </div>
+    </div>
+
+    <p class="smarty-text"><a href="#/explorebudget1" class="no-text-decoration color-fnb-green"><i class="ion-flash size-24 color-fnb-green"></i>&nbsp;&nbsp;Would you like to explore some options?&nbsp;&nbsp;<i class="ion-ios-arrow-forward size-16 color-fnb-green"></i></a></p>
+
+    <div class="height-50"></div>
+
+  </ion-content>
+</ion-view>
