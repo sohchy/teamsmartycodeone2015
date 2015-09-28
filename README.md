@@ -39,6 +39,5 @@ From 12, you can scroll down to and click Would you like to save some more and i
 
 Also, from 12, you can click on Toolbox (please note Toolbox works only after you have reached Step 12). And click on Ask Me. If you want to get back to the My Budget screen, you can scroll down that Toolbox screen and click on 'Home'. 
 
-
 If you have any questions please feel free to txt or ask.
 - SMARTY Team
