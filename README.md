@@ -20,7 +20,9 @@ android: bit.do/fnb16android
 
 The app doesn't work throughout, that means all the links in the app aren't live and working. The app workflow was designed for the presentation as we wanted to focus on the story we wanted to tell. I've added a workflow from the presentation here if it helps.
 
-1.Open App
+Steps
+
+1. Open App
 2. Select Login 
 3. Try It (Get Started screen)
 4. My Budget screen, at the bottom: Would you like to explore some options?
